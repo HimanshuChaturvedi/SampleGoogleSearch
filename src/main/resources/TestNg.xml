@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object Model Test Automation Test Suite">
+
+	<listeners>
+		<listener class-name="com.google.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Google App Test Cases">
+		<classes>
+			<class name="com.google.qa.testcases.SearchPageTest"></class>
+			
+		</classes>
+	</test>
+</suite>
+
+<!--This is a test runner class -->
+<!-- Way to ignore testcase just simply comment the testcase name -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Page Object Model Test Automation Test Suite]">
+  <test name="Google App Test Cases(failed)">
+    <classes>
+      <class name="com.google.qa.testcases.SearchPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="firstPageTest" invocation-numbers="0 1 2"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.google.qa.testcases.SearchPageTest -->
+    </classes>
+  </test> <!-- Google App Test Cases(failed) -->
+</suite> <!-- Failed suite [Page Object Model Test Automation Test Suite] -->
